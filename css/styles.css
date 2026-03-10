@@ -684,9 +684,10 @@ ul, ol {
 }
 
 .about-highlight-text {
-  font-size: 0.88rem;
+  font-size: 0.82rem;
   font-weight: 600;
   color: var(--text-dark);
+  line-height: 1.3;
 }
 
 /* ---------- Programs Section ---------- */
