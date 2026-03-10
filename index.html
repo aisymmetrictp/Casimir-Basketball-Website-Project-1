@@ -37,6 +37,7 @@
   <!-- Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="preconnect" href="https://img.youtube.com">
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Oswald:wght@400;500;600;700;800&display=swap" rel="stylesheet">
 
   <!-- Stylesheet -->
@@ -74,6 +75,13 @@
         {"@type": "CollegeOrUniversity", "name": "Iona College"},
         {"@type": "CollegeOrUniversity", "name": "Florida Gulf Coast University"}
       ]
+    },
+    "video": {
+      "@type": "VideoObject",
+      "name": "Schadrac Casimir NCAA Tournament Highlights vs Duke and Oregon",
+      "description": "Watch Schadrac Casimir compete against Duke and Oregon in the NCAA Tournament while playing for Iona College.",
+      "thumbnailUrl": "https://img.youtube.com/vi/M9QzFahAd0c/maxresdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/M9QzFahAd0c"
     }
   }
   </script>
@@ -98,6 +106,7 @@
 
       <div class="nav-links" id="navLinks">
         <a href="#home">Home</a>
+        <a href="#highlights">Highlights</a>
         <a href="#about">About</a>
         <a href="#programs">Programs</a>
         <a href="#journey">Journey</a>
@@ -188,6 +197,63 @@
             </div>
           </div>
         </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- NCAA Tournament Highlights -->
+  <section class="ncaa-highlights" id="highlights">
+    <div class="container">
+      <div class="ncaa-highlights-inner reveal">
+
+        <div class="ncaa-highlights-header">
+          <span class="section-label">NCAA Tournament</span>
+          <h2 class="section-title">
+            Competing Against<br>
+            <span class="highlight">The Best</span> in March
+          </h2>
+          <p class="ncaa-highlights-subtitle">
+            Watch Schadrac Casimir take the court against Duke and Oregon
+            in the NCAA Tournament &mdash; the biggest stage in college basketball.
+          </p>
+        </div>
+
+        <div class="ncaa-video-wrapper">
+          <div class="ncaa-video-container" id="ncaaVideoContainer">
+            <div class="ncaa-video-thumbnail" id="ncaaVideoThumb">
+              <img
+                src="https://img.youtube.com/vi/M9QzFahAd0c/maxresdefault.jpg"
+                alt="Schadrac Casimir NCAA Tournament highlights vs Duke and Oregon"
+                width="1280"
+                height="720"
+                loading="lazy"
+              >
+              <button class="ncaa-play-btn" aria-label="Play NCAA Tournament highlight video">
+                <svg viewBox="0 0 68 48" width="68" height="48">
+                  <path d="M66.52 7.74c-.78-2.93-2.49-5.41-5.42-6.19C55.79.13 34 0 34 0S12.21.13 6.9 1.55c-2.93.78-4.63 3.26-5.42 6.19C.06 13.05 0 24 0 24s.06 10.95 1.48 16.26c.78 2.93 2.49 5.41 5.42 6.19C12.21 47.87 34 48 34 48s21.79-.13 27.1-1.55c2.93-.78 4.63-3.26 5.42-6.19C67.94 34.95 68 24 68 24s-.06-10.95-1.48-16.26z" fill="#e94560"/>
+                  <path d="M 45,24 27,14 27,34" fill="#fff"/>
+                </svg>
+              </button>
+              <div class="ncaa-video-glow"></div>
+            </div>
+          </div>
+        </div>
+
+        <div class="ncaa-game-tags">
+          <div class="ncaa-game-tag">
+            <span class="ncaa-game-tag-label">Matchup</span>
+            <span class="ncaa-game-tag-value">Iona vs Duke</span>
+          </div>
+          <div class="ncaa-game-tag">
+            <span class="ncaa-game-tag-label">Matchup</span>
+            <span class="ncaa-game-tag-value">Iona vs Oregon</span>
+          </div>
+          <div class="ncaa-game-tag">
+            <span class="ncaa-game-tag-label">Stage</span>
+            <span class="ncaa-game-tag-value">NCAA Tournament</span>
+          </div>
+        </div>
+
       </div>
     </div>
   </section>

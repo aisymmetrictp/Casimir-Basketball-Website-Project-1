@@ -199,4 +199,20 @@ document.addEventListener('DOMContentLoaded', () => {
     });
   }
 
+  // ---------- NCAA Video Lazy Load (Thumbnail -> iframe) ----------
+  const videoThumb = document.getElementById('ncaaVideoThumb');
+  const videoContainer = document.getElementById('ncaaVideoContainer');
+
+  if (videoThumb && videoContainer) {
+    videoThumb.addEventListener('click', () => {
+      const iframe = document.createElement('iframe');
+      iframe.src = 'https://www.youtube.com/embed/M9QzFahAd0c?autoplay=1&rel=0&modestbranding=1';
+      iframe.allow = 'accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture';
+      iframe.allowFullscreen = true;
+      iframe.title = 'Schadrac Casimir NCAA Tournament Highlights vs Duke and Oregon';
+      videoThumb.remove();
+      videoContainer.appendChild(iframe);
+    });
+  }
+
 });
