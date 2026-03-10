@@ -1,0 +1,10 @@
+{
+  "permissions": {
+    "allow": [
+      "WebFetch(domain:www.craigaustrie.net)",
+      "WebFetch(domain:web.archive.org)",
+      "WebFetch(domain:webcache.googleusercontent.com)",
+      "WebFetch(domain:builtwith.com)"
+    ]
+  }
+}
